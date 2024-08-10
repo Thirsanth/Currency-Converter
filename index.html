@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+        <h1 id="header-box">Euro Curreny Converter</h1>
+        </div>
+        <div id="result-data" role="alert">
+          </div>
+        <div class="formbox">
+        <form class="form-floating mb-3">
+            <!-- to disble chrome://net-internals/#hsts-->
+            
+            <input type="number" class="form-control" placeholder="Enter amount" id="amount" name="amount">
+            <label for="amount">EUR</label>
+            <select id="currency_selected" class="form-select form-select" >
+                <option selected>Select Currency for Conversion</option>
+                <option value="USD">USD</option>
+                <option value="AED">AED</option>
+                <option value="INR">INR</option>
+                <option value="CHF">CHF</option>
+                <option value="CAD">CAD</option>
+                <option value="JPY">JPY</option>
+                <option value="GBP">GBP</option>
+                <option value="HKD">HKD</option>
+                <option value="AUD">AUD</option>
+                <option value="SGD">SGD</option>
+            </select>
+           
+            <button class="btn btn-outline-primary" id="btn">Convert</button>
+        </form>
+       
+        <!-- <div id="result-data">
+        </div> -->
+        </div>
+    </div>
+</body>
+</html>

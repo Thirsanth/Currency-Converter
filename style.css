@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: url('https://e0.pxfuel.com/wallpapers/27/336/desktop-wallpaper-stock-market-group-for.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+#header-box{
+    color: white;
+    margin-left: -100px;
+}
+.formbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+#currency_selected{
+    margin-top: 10px;
+}
+#btn{
+    margin-top: 10px;
+    margin-left: 90px;
+}
